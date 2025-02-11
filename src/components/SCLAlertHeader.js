@@ -5,12 +5,12 @@ import images from '../config/images'
 import variables from '../config/variables'
 import { themeType, defaultThemeType } from '../config/types'
 
-SCLAlertHeader.propTypes = {
+/*SCLAlertHeader.propTypes = {
   headerContainerStyles: ViewPropTypes.style,
   headerInnerStyles: ViewPropTypes.style,
   theme: themeType,
   headerIconComponent: PropTypes.node
-}
+}*/
 
 SCLAlertHeader.defaultProps = {
   headerContainerStyles: {},

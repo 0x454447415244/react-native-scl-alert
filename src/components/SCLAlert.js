@@ -13,14 +13,14 @@ import { height } from '../helpers/dimensions'
 import variables from './../config/variables'
 
 class SCLAlert extends React.Component {
-  static propTypes = {
+  /*static propTypes = {
     children: PropTypes.node,
     show: PropTypes.bool,
     cancellable: PropTypes.bool,
     onRequestClose: PropTypes.func.isRequired,
     slideAnimationDuration: PropTypes.number,
     overlayStyle: ViewPropTypes.style
-  }
+  }*/
 
   static defaultProps = {
     children: null,

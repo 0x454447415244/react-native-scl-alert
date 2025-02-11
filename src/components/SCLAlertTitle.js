@@ -3,11 +3,11 @@ import PropTypes from 'prop-types'
 import { View, ViewPropTypes, StyleSheet, Text } from 'react-native'
 import variables from '../config/variables'
 
-SCLAlertTitle.propTypes = {
+/*SCLAlertTitle.propTypes = {
   title: PropTypes.string.isRequired,
   titleContainerStyle: ViewPropTypes.style,
   titleStyle: Text.propTypes.style
-}
+}*/
 
 SCLAlertTitle.defaultProps = {
   titleContainerStyle: {},
